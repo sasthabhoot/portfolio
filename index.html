@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Soumya Ranjan - Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+		<link rel="stylesheet" href="css/bootstrap.css"> 
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="logo.ico" />
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="logo">
+			<a href="#home"><img id="logo-img" src="images/logo.png"></a>
+		</div>
+		<nav class="navbar navbar-custom">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand"></a>
+				</div>
+				<div>
+					<ul class="nav navbar-right">
+						<li><a href="#about" class="active">ABOUT</a></li>
+						<li><a href="#work">WORKS</a></li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</nav> 
+
+		<div id="home">
+			<img id="arrow" src="images/arrow.svg">
+		</div>
+
+		<div id="about" >
+			<div id="text-about" class="offset-md-2 col-md-6">
+				<br><br>
+				<h1>ABOUT</h1>
+				<br>
+				<p >An engineer by career option and designer by passion, Soumya Ranjan, found the right confluence in web design and development. With one year experience in this field, he is now looking forward to expose himself and is ready to work on different projects.</p>
+			</div>
+		</div>
+
+		<div id="work" style="background-color: #1e1e1e; height:50vw; text-align: right">
+			<div id="text-work">
+				<h2> WORKS </h2>
+			</div>
+			<img id="img1" src="images/webd1.png" style="width: 300px; height: 300px;">
+			<img id="img2" src="images/IoT1.png" style="width: 300px; height: 300px;">
+			<img id="img3" src="images/content1.png" style="width: 300px; height: 300px;">
+			<img id="img4" src="images/ui1.png" style="width: 300px; height: 300px;">
+		</div>
+
+		<div id="contact" style="background-image: url(images/contact.jpg); height:50vw">
+			<div id="text-about" class="offset-md-1 col-md-4" style="padding: 30px; background-color: rgba(30,30,30,0.5); background-blend-mode: screen; border-radius: 24px;">
+			
+				<h1>CONTACT</h1>
+				<br>
+				<p style="font-size: 24px">Feel free to contact with me regarding any project on web development or Internet of Things. Go through my works, pose suggestion, make some criticism and just let me know. Or else lets just meet over a cup of coffee.</p>
+				<br>
+				<p style="font-size: 24px">With love,<br>Soumya Ranjan</p>
+			</div>
+			<div id="#newdiv" class="contact-form offset-md-7 col-md-4">
+
+				<form id="contact-form" method="POST" action="mail.php">
+					<br>
+					<h3 style="font-size: 36px;color: white; font-family: 'Dosis', sans-serif;">Leave a note!</h3><br>
+					<input name="name" type = "text" class="form-control" placeholder="Name" required><br>
+					<input name="email" type = "email" class="form-control" placeholder="E-mail" required><br>
+					<textarea name="message" class="form-control" placeholder="Write your note here." row="4"></textarea><br>
+					<input type="submit" name="submit" class="form-control submit" value="SHARE"><br>
+				</form>
+			</div>
+		</div>
+
+		<div id="footer" style="background-color: #1e1e1e; text-align: center; font-size: 24px;">
+				
+  				<p><br><span id="icons">
+  					<a href="https://www.facebook.com/soumya.ranjan.73997" target="_blank" style="padding:10px;"><i class="fa fa-facebook fa-inverse" aria-hidden="true"></i></a>
+  					<a href="https://www.instagram.com/dishehara_pathik/" target="_blank" style="padding:10px;"><i class="fa fa-instagram fa-inverse" aria-hidden="true"></i></a>
+  					<a href="https://www.behance.net/postboxno76c9d" target="_blank" style="padding:10px;"><i class="fa fa-behance fa-inverse" aria-hidden="true"></i></a>
+  					<a href="https://midnightscribblings.000webhostapp.com/" target="_blank" style="padding:10px;"><i class="fa fa-pencil fa-inverse" aria-hidden="true"></i></a>
+  				</span></p>
+				<br>
+				
+		</div>
+		<p style="font-size: 12;color: grey; text-align: right;padding-right: 40px;">&copy SR studio</p>
+		<!-- Java Script Zone -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

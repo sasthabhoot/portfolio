@@ -1,0 +1,200 @@
+body {
+	background-color: #1e1e1e;
+}
+
+.navbar {
+	box-shadow: 0px 5px 5px black;
+	position: fixed;
+	width:100%;
+	background-color: #1e1e1e;
+	z-index: 10;
+	text-align: right;
+}
+
+
+.nav li a{
+	color:white;
+    display:inline-block;
+    text-decoration: none;
+    padding:10px;
+    font-size: 120%;	
+}
+
+.nav li a:hover{
+	border: 2px solid white;
+	border-radius: 24px;
+}
+
+#footer a:hover {
+	border-top:2px solid white;
+}
+
+.nav-control a:hover{
+	font-size: 120%;
+	background-color: black;
+}
+
+#home {
+	background-image: url(images/home.jpg);
+	text-align: center;
+	height:52.7vw;
+}
+
+#arrow {
+	width:80px;
+	height: 80px;
+	position: relative;
+    top: 610px;
+    left: 7px;
+}
+
+#about {
+	background-image: url(images/about.jpg); 
+	height:50vw;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 60px;
+    position: relative;
+    top: 120px;
+    right: 420px;
+}
+
+#text-about {
+	position: relative;
+	top: 100px;
+	font-family: 'Dosis', sans-serif;
+	color: white;
+	font-weight: lighter;
+	font-size: 30px;
+	line-height: 120%;
+}
+
+#img1 {
+    z-index: 1;
+    position: relative;
+    left: 260px;
+    top:6px;
+    transition: transform .2s;
+}
+
+#img1:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+#img2 {
+    z-index: 2;
+    position: relative;
+    left: -283px;
+    top: 146px;
+    transition: transform .2s;
+}
+
+#img2:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+#img3 {
+    z-index: 3;
+    position: relative;
+    left: -112px;
+    top: 146px;
+    transition: transform .2s;
+}
+
+#img3:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+#img4 {
+    z-index: 4;
+    position: relative;
+    left: -653px;
+    top: 290px;
+    transition: transform .2s;
+}
+
+#img4:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+form{
+	margin-top: 20px;
+	transition: all 4s ease-in-out;
+	text-align: center;
+}
+
+.form-control {
+	background: transparent;
+	border-bottom: 1px solid grey;
+	outline:none;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+input {
+	height: 36px;
+}
+
+form .submit {
+	background-color: #ec2e2e;
+	border-color: transparent;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 4px;
+	height: 42px;
+	margin-top: 20px;
+	box-shadow: 0px 5px 5px black;
+}
+
+#contact-form {
+	padding: 20px;
+    background-color: rgba(30,30,30,0.5);
+    background-blend-mode: screen;
+    border-radius: 24px;
+	position: relative;
+	z-index: 3;
+	top: -436px;
+}
+
+#social-facebook {
+	color: white !important;
+}
+
+#logo{
+	z-index: 12;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%
+	box-shadow:0px 5px 5px black;
+	padding-top: 10px;
+	padding-left:15px;
+	transition: transform .2s;
+}
+
+#logo:hover {
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25); 
+}
+
+#logo-img {
+	width: 100px;
+	height: 100px;
+}
